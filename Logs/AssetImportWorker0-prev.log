@@ -1,0 +1,463 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.32f1c1 (fa19b96eeab7) revision 16390585'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16147 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Unity Hub\2021.3.32f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Six/PBDGClass
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+11187
+Successfully changed project path to: D:/Six/PBDGClass
+D:/Six/PBDGClass
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30376] Host "[IP] 10.161.21.27 [Port] 0 [Flags] 2 [Guid] 739832363 [EditorId] 739832363 [Version] 1048832 [Id] WindowsEditor(7,Lcm) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [30376] Host "[IP] 10.161.21.27 [Port] 0 [Flags] 2 [Guid] 739832363 [EditorId] 739832363 [Version] 1048832 [Id] WindowsEditor(7,Lcm) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 19.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.32f1c1 (fa19b96eeab7)
+[Subsystems] Discovering subsystems at path D:/Unity/Unity Hub/2021.3.32f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Six/PBDGClass/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   31.0.15.5244
+Initialize mono
+Mono path[0] = 'D:/Unity/Unity Hub/2021.3.32f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Unity Hub/2021.3.32f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Unity Hub/2021.3.32f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Unity Hub/2021.3.32f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/Unity Hub/2021.3.32f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002547 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 212 ms
+Refreshing native plugins compatible for Editor in 18.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.722 seconds
+Domain Reload Profiling:
+	ReloadAssembly (722ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (548ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (84ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (404ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (284ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (19ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (66ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003912 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.118 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1119ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (906ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (631ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (548ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1528 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (39.0 KB). Loaded Objects now: 2017.
+Memory consumption went from 83.5 MB to 83.5 MB.
+Total: 2.867100 ms (FindLiveObjects: 0.127700 ms CreateObjectMapping: 0.027700 ms MarkObjects: 2.590600 ms  DeleteObjects: 0.119800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28795.635324 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Stage/StageSystem.cs
+  artifactKey: Guid(2adb856071c77ec40b093f67083ec2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Stage/StageSystem.cs using Guid(2adb856071c77ec40b093f67083ec2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e6aa8e94ab439d170145fbbdf5ba1b') in 0.041560 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.181533 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Camp/TrainCommand/TrainCaptiveCommand.cs
+  artifactKey: Guid(c5199e396b02ced4785cebbaf3b0e237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Camp/TrainCommand/TrainCaptiveCommand.cs using Guid(c5199e396b02ced4785cebbaf3b0e237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b537ee604b44882e5e4c67649176e5a3') in 0.010832 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.729842 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Camp/TrainCommand/TrainSoldierCommand.cs
+  artifactKey: Guid(b438bdf229796354991ac621a053c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Camp/TrainCommand/TrainSoldierCommand.cs using Guid(b438bdf229796354991ac621a053c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576cda4054ad549c55e578f7b234580f') in 0.010233 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.629841 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Camp/TrainCommand/ITrainCommand.cs
+  artifactKey: Guid(49602289887fdea42a868e2689557e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Camp/TrainCommand/ITrainCommand.cs using Guid(49602289887fdea42a868e2689557e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3db6ab1495227aba399d4f85019a351') in 0.011766 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.328752 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Character/CharacterBuilder/CharacterBuilderSystem.cs
+  artifactKey: Guid(f34c25d28c1a89847bd2e5713b094323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Character/CharacterBuilder/CharacterBuilderSystem.cs using Guid(f34c25d28c1a89847bd2e5713b094323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399864f1285f1da38fd311d83e8f43a5') in 0.011033 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.786841 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Character/CharacterBuilder/EnemyBuilder.cs
+  artifactKey: Guid(ccc74a153c6752742ab8ecb80466a7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Character/CharacterBuilder/EnemyBuilder.cs using Guid(ccc74a153c6752742ab8ecb80466a7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2dac75cdd8f0672edeb7818579f2b8') in 0.010525 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.044949 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Character/CharacterBuilder/ICharacterBuilder.cs
+  artifactKey: Guid(6d33a5e174b1099439338a59b89a704f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Character/CharacterBuilder/ICharacterBuilder.cs using Guid(6d33a5e174b1099439338a59b89a704f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d52ffa0faee26ca2151b552d2b2702') in 0.011265 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.469182 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Character/CharacterBuilder/SoldierBuilder.cs
+  artifactKey: Guid(dd27c792d74652c41aaee23df6b51836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Character/CharacterBuilder/SoldierBuilder.cs using Guid(dd27c792d74652c41aaee23df6b51836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095be1ddd2064eee44b234ca8e73af94') in 0.010604 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.986289 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Character/CharacterVisitor/ICharacterVisitor.cs
+  artifactKey: Guid(1c040b78b2f9955408a7367a23ddfd94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Character/CharacterVisitor/ICharacterVisitor.cs using Guid(1c040b78b2f9955408a7367a23ddfd94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480d551a07ab49e7770811d50a9bcf50') in 0.011156 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.678775 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Character/CharacterVisitor/SoldierAddMedalVisitor.cs
+  artifactKey: Guid(97ab47c356e734245bd3c3f5d1834a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Character/CharacterVisitor/SoldierAddMedalVisitor.cs using Guid(97ab47c356e734245bd3c3f5d1834a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385c567890aaacb6afb41cd46cb50fa6') in 0.011999 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.577306 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Character/CharacterVisitor/UnitCountVisitor.cs
+  artifactKey: Guid(3be0ea672fa4a1547bb7b5092394565a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Character/CharacterVisitor/UnitCountVisitor.cs using Guid(3be0ea672fa4a1547bb7b5092394565a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b825ccf32992ec31f037e29704ba079') in 0.010550 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.521389 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Character/Enemy/EnemyCaptive.cs
+  artifactKey: Guid(80eb4d7f698364742838f2b1afad37b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Character/Enemy/EnemyCaptive.cs using Guid(80eb4d7f698364742838f2b1afad37b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5b62d40cb4c19ffd1bc944660339ed') in 0.010889 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.749374 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Character/Enemy/EnemyElf.cs
+  artifactKey: Guid(deb217a8b0370244a8e54cd95b73d966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Character/Enemy/EnemyElf.cs using Guid(deb217a8b0370244a8e54cd95b73d966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7656ace7f23dd16e9223e8eba5ca38c') in 0.011840 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.493324 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Character/Enemy/EnemyOgre.cs
+  artifactKey: Guid(7613504cfacdddb498586de4262e8416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Character/Enemy/EnemyOgre.cs using Guid(7613504cfacdddb498586de4262e8416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519d403a240691f3906df947431bc333') in 0.010795 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.539715 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Character/Enemy/IEnemy.cs
+  artifactKey: Guid(ea8e62f49107a6d439f425a94b86eb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Character/Enemy/IEnemy.cs using Guid(ea8e62f49107a6d439f425a94b86eb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698ebfb1c21bb9eca751c1fede0a6003') in 0.010174 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.891985 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Character/Enemy/EnemyTroll.cs
+  artifactKey: Guid(16c55b055556a134cb45fc3214ef2153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Character/Enemy/EnemyTroll.cs using Guid(16c55b055556a134cb45fc3214ef2153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e09c8381671a3a3a7aadfcd60d80df') in 0.010893 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.419302 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Character/Script/CharacterMovement.cs
+  artifactKey: Guid(2c331ab893056364fba2e98bd32496e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Character/Script/CharacterMovement.cs using Guid(2c331ab893056364fba2e98bd32496e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac51e7cb066c5d9bf1758ecdb15ce69') in 0.010857 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.179913 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Character/Script/EffectDelete.cs
+  artifactKey: Guid(3616a2324171ff749a9dc1fab9d43e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Character/Script/EffectDelete.cs using Guid(3616a2324171ff749a9dc1fab9d43e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a3542271641a6cb0a62696073f6bb3') in 0.011680 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.580006 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Character/Script/SoldierClickScript.cs
+  artifactKey: Guid(a489de57a7591584d9733a1a1d6a0f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Character/Script/SoldierClickScript.cs using Guid(a489de57a7591584d9733a1a1d6a0f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0245f4cd753d03e6ed2c8ec0c5f07b3c') in 0.011178 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.781643 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Character/Soldier/ISoldier.cs
+  artifactKey: Guid(32b600782eada6748a4a5de992c01aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Character/Soldier/ISoldier.cs using Guid(32b600782eada6748a4a5de992c01aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e65134e32050311e4266edff87e135') in 0.011959 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.464537 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Character/Soldier/SoldierCaptain.cs
+  artifactKey: Guid(23544906409995747a2c8097f9bdc2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Character/Soldier/SoldierCaptain.cs using Guid(23544906409995747a2c8097f9bdc2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ce6d2434d939d030ed06de8be4a40f') in 0.010858 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.427020 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Character/Soldier/SoldierCaptive.cs
+  artifactKey: Guid(d29f50b8d13bda24088e811dec550aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Character/Soldier/SoldierCaptive.cs using Guid(d29f50b8d13bda24088e811dec550aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879faceb6c41ab79e8fb7cdd3038debd') in 0.010245 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.119371 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Character/Soldier/SoldierSergeant.cs
+  artifactKey: Guid(901f1a64c1ee30444a3e1b4f01560efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Character/Soldier/SoldierSergeant.cs using Guid(901f1a64c1ee30444a3e1b4f01560efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f595f61b6f32141a2c202695e8bf2e64') in 0.012048 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.471813 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Character/Soldier/SoldierRookie.cs
+  artifactKey: Guid(a5da26c0b823e84459084fd0583d4427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Character/Soldier/SoldierRookie.cs using Guid(a5da26c0b823e84459084fd0583d4427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6effd085cc424a986706f050e94957e0') in 0.011470 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 38.435667 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Factory/AssetFactory/IAssetFactory.cs
+  artifactKey: Guid(9219d344cf5aa6247a15d3d1a79ba146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Factory/AssetFactory/IAssetFactory.cs using Guid(9219d344cf5aa6247a15d3d1a79ba146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25f490144f2f00d1d11266d47786019') in 0.010562 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.653241 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Factory/AssetFactory/LocalAssetFactory.cs
+  artifactKey: Guid(6c04a9899586f0742ba6c7d30bee73ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Factory/AssetFactory/LocalAssetFactory.cs using Guid(6c04a9899586f0742ba6c7d30bee73ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5133823886d99fee77e3d7104b9410f1') in 0.010041 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.700651 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Factory/AssetFactory/ResourceAssetFactory.cs
+  artifactKey: Guid(cd8ac48c1db092c419038a09ca308515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Factory/AssetFactory/ResourceAssetFactory.cs using Guid(cd8ac48c1db092c419038a09ca308515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ad55519569192cacd5307879af5ae0') in 0.010422 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.373633 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Factory/AssetFactory/ResourceAssetProxyFactory.cs
+  artifactKey: Guid(9625e2c5a6fef0f4fab171256d589d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Factory/AssetFactory/ResourceAssetProxyFactory.cs using Guid(9625e2c5a6fef0f4fab171256d589d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0542148779a98943fb5040318db5c64') in 0.010881 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.738418 seconds.
+  path: Assets/P-BaseDefenseAssets/GameCode/Factory/AssetFactory/RemoteAssetFactory.cs
+  artifactKey: Guid(0e2b526748142d7418134186d49cc0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/P-BaseDefenseAssets/GameCode/Factory/AssetFactory/RemoteAssetFactory.cs using Guid(0e2b526748142d7418134186d49cc0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14f91bec920a3e3efcac918b954e11b') in 0.011023 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003988 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.273 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1275ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (951ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (163ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (657ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (567ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1521 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (21.9 KB). Loaded Objects now: 2020.
+Memory consumption went from 83.1 MB to 83.1 MB.
+Total: 3.484300 ms (FindLiveObjects: 0.168300 ms CreateObjectMapping: 0.029600 ms MarkObjects: 3.245300 ms  DeleteObjects: 0.039700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
